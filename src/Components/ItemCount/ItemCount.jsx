@@ -48,7 +48,7 @@ function ItemCount(props) {
 
   return (
     
-    <div className='container'>
+    <div className='container-count'>
         <ButtonGroup size="lg" className="mb-2" style={{width:'100%'}}>
             <Button className='btns' onClick={handleSubstract}>-</Button>
             <h1 style={{width:'60%', display:'flex',justifyContent:'center'}}>{count}</h1>
