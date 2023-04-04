@@ -1,0 +1,41 @@
+
+.container-count{
+    margin: 0px;
+}
+
+.btns{
+    background-color:#29335c;
+    border:none;
+    padding: 0px;
+    margin: 0px;
+}
+.btns:hover{
+    background-color: #313d6d;
+    color:black;
+}
+.btnAgregar:hover{
+    background-color: #313d6d;
+    color:black;
+}
+.btnAgregar{
+    background-color: #29335c;
+    border:none;
+    margin-bottom: 10px;
+}
+.btn-check:focus+.btn, .btn:focus {
+    color: var(--bs-btn-hover-color);
+    background-color: #29335c !important ;
+    border-color: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 1124px) {
+
+    .container-count{
+        margin-top: 60px;
+    } 
+    .btnAgregar{
+        padding: 10px;
+    }   
+}
